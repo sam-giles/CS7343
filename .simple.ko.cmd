@@ -1,0 +1,1 @@
+cmd_/home/sam/CS7343/simple.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000 -T ./scripts/module-common.lds  --build-id  -o /home/sam/CS7343/simple.ko /home/sam/CS7343/simple.o /home/sam/CS7343/simple.mod.o ;  true
